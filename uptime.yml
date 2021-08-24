@@ -1,4 +1,6 @@
+---
 - name: Machine Uptime
+  hosts: all
   tasks:
     - name: Show Uptime
       command: "uptime"
