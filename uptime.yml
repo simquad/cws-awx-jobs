@@ -1,0 +1,4 @@
+- name: Machine Uptime
+  tasks:
+    - name: Show Uptime
+      command: "uptime"
